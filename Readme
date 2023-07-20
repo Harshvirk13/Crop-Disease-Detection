@@ -1,0 +1,90 @@
+# Crop Disease Detection Model using CNN
+
+![Crop Disease Detection](disease_detection.jpg)
+
+This GitHub repository contains a Crop Disease Detection model built using Convolutional Neural Networks (CNN) to identify diseases in crops. The model is designed to detect diseases in apple, potato, corn, and wheat plants.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Dependencies](#dependencies)
+- [Model Architecture](#model-architecture)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+Crop diseases can significantly impact agricultural yields and cause economic losses for farmers. This project aims to develop a CNN-based model that can accurately identify and classify diseases in four major crops: apple, potato, corn, and wheat. The trained model can be used to create a user-friendly application for farmers or agricultural experts to identify crop diseases in real-time, leading to timely intervention and improved crop management practices.
+
+## Dataset
+The dataset used for training the model comprises images of healthy crops and various crop diseases. The dataset includes the following crop categories:
+- Apple
+- Potato
+- Corn
+- Wheat
+
+The images in the dataset are labeled and have been carefully curated to ensure accuracy and diversity in disease representation.
+
+## Installation
+To set up the environment for running the Crop Disease Detection model, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/crop-disease-detection.git
+```
+
+2. Change into the project directory:
+
+```bash
+cd crop-disease-detection
+```
+
+3. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+Once the repository is cloned and the dependencies are installed, you can use the trained model for crop disease detection. There are several ways to utilize the model, such as through a command-line interface or integrating it into a web application.
+
+To perform disease detection using a command-line interface, you can run:
+
+```bash
+python detect_disease.py --image path/to/your/image.jpg
+```
+
+Replace `path/to/your/image.jpg` with the path to the image you want to analyze.
+
+## Dependencies
+The Crop Disease Detection model is built using the following Python frameworks and libraries:
+- Python 3
+- TensorFlow or PyTorch (choose one based on your preference)
+- NumPy
+- OpenCV
+- Matplotlib
+
+Make sure to have these dependencies installed in your Python environment before running the model.
+
+## Model Architecture
+The model architecture consists of a CNN with multiple layers of convolution, pooling, and fully connected layers. The architecture is designed to efficiently learn and extract features from the input images, enabling accurate disease classification.
+
+The specific architecture details and hyperparameters can be found in the source code of the model files.
+
+## Results
+The model has been trained on a large dataset and has shown promising results in accurately identifying crop diseases. However, like any machine learning model, its performance may vary based on the dataset's quality and size.
+
+If you would like to know more about the evaluation metrics and performance results, please refer to the `results.txt` file in this repository.
+
+## Contributing
+Contributions to this project are welcome! If you find any issues or have ideas for improvements, feel free to open an issue or submit a pull request.
+
+## License
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code as per the terms of this license.
+
+---
+
+We hope this README helps you understand the project and how to use the Crop Disease Detection model. For any questions or feedback, please don't hesitate to contact us or open an issue in this repository. Happy coding!

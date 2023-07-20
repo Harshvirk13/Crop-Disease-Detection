@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Upload</title>
+  <link rel="stylesheet" type="text/css" href="webpag.css">
+  <script src="web.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="harvestech-logo.png" alt="Logo">
+    </div>
+    <h1 class="header-text">HARVESTTECH</h1>
+  </header>
+  <main>
+    <form>
+      <input type="file" id="imageUpload" name="imageUpload" onchange="previewImage(event)">
+      <label for="imageUpload">Choose an image to upload</label>
+    </form>
+    <div class="preview-container">
+      <img id="previewImage" alt="Preview">
+      <button onclick="uploadImage()">Upload</button>
+    </div>
+  </main>
+</body>
+</html>
+

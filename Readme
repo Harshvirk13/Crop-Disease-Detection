@@ -1,6 +1,5 @@
 # Crop Disease Detection Model using CNN
 
-![Crop Disease Detection](disease_detection.jpg)
 
 This GitHub repository contains a Crop Disease Detection model built using Convolutional Neural Networks (CNN) to identify diseases in crops. The model is designed to detect diseases in apple, potato, corn, and wheat plants.
 

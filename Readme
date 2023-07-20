@@ -32,7 +32,7 @@ To set up the environment for running the Crop Disease Detection model, follow t
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/crop-disease-detection.git
+git clone https://github.com/Harshvirk13/Crop-Disease-Detection.git
 ```
 
 2. Change into the project directory:
